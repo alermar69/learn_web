@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29102.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "learn_web", "learn_web\learn_web.pyproj", "{79E097CC-1F8C-4AE6-8C28-750B83D5FAA3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{79E097CC-1F8C-4AE6-8C28-750B83D5FAA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79E097CC-1F8C-4AE6-8C28-750B83D5FAA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9DC7E036-5589-464F-86E3-E6745FD264FA}
+	EndGlobalSection
+EndGlobal
