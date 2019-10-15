@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>79e097cc-1f8c-4ae6-8c28-750b83d5faa3</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>server.py</StartupFile>
+    <StartupFile>webapp\__init__.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,8 +22,14 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="server.py" />
-    <Compile Include="weather.py">
+    <Compile Include="webapp\config.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="webapp\python_org_news.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="webapp\__init__.py" />
+    <Compile Include="webapp\weather.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
@@ -37,6 +43,13 @@
       <PathEnvironmentVariable>PYTHONPATH</PathEnvironmentVariable>
       <Architecture>X64</Architecture>
     </Interpreter>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="webapp\" />
+    <Folder Include="webapp\templates\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="webapp\templates\index.html" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
