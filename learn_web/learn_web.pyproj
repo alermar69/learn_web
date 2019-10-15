@@ -22,7 +22,16 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="create_db.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="get_all_news.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="webapp\config.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="webapp\model.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="webapp\python_org_news.py">
